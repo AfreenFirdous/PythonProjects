@@ -1,0 +1,30 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block content%}
+
+ <div class=" mt-5">
+     <div class="text-center">
+         <img src="{% static 'core/images/Photo.jpg'%}" alt="Profile"
+        class="img-thumbnail  " width=150px" height="50px">
+     </div>
+
+     <div class="mt-5 text-white mx-5 text-justify">
+         <h1 class="font-weight-bold st-font">Hello,</h1>
+         <div class="px-4">
+             <p style="text-indent:100px;"> I am <b class="text-warning"> Syeda Afreen Firdous</b>
+                 having 3.8 years of experience in developing enterprise level applications. I offer the technical
+                 expertise that you are seeking for your python developer position.
+             </p>
+             <p>Since earning my bachelor's degree in Computer Science from Osmania University.
+                 I have served as a software developer at
+                 <b class="text-warning"> Cyient Limited</b>, well-known aerospace, transportation and
+                 software services providing firm. In this position, I worked on various programming languages
+                 like <b class="text-warning">.net, Qt with C++, postgreSQL and Python/Django</b>
+             </p>
+         </div>
+     </div>
+
+
+    </div>
+{% endblock content%}
